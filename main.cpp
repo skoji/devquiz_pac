@@ -51,8 +51,7 @@ int main (int argc, char * const argv[]) {
 	std::cout << solver.end_board->path_string() << std::endl;
 	std::cout << solver.end_board->dots << std::endl;
   } else {
-	solver.highest_score_now->display_all_history_to(std::cout);
-	std::cout << solver.highest_score_now->path_string() << std::endl;
+	solver.highest_score_now->display_to(std::cout);
   }
   return 0;
 }
