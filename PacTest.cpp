@@ -420,4 +420,97 @@ PacTest::testSolverProcess() {
 
   CPPUNIT_ASSERT_EQUAL(PacSolver::Solving, pacsolver.process());  
   CPPUNIT_ASSERT_EQUAL(1, (int)pacsolver.this_generation.size());
-}
+
+ .lsbb{background:#eee;border:solid 1px;border-color:#ccc #999 #999 #ccc;height:30px;display:block}
+ 
+25   25         .lsb{background:url(/images/srpr/nav_logo13.png) bottom;font:15px arial,sans-serif;border:none;cursor:pointer;height:30px;margin:0;outline:0;vertical-align:top}
+ 
+26   26         .lsb:active{background:#ccc}
+ 
+27      -    #github{display:inline-block;color:#444;font-size:10pt;font-family:monospace;padding:5px;}
+ 
+28      -    #github:hover{color:#666;text-decoration:none;background:#333;}
+ 
+  27    +    #footer ul{list-style-type:none;padding:0}
+ 
+  28    +    #footer a{display:inline-block;color:#444;font-size:10pt;font-family:monospace;padding:5px}
+ 
+  29    +    #footer a:hover{color:#666;text-decoration:none;background:#333}
+ 
+  30    +    
+ 
+29   31       </style>
+ 
+30   32     </head>
+ 
+31   33     <body>
+ 
+  @@ -100,9 +102,13 @@
+ 
+100   102           </tr>
+ 
+101   103         </table>
+ 
+102   104       </form>
+ 
+103      -
+ 
+104      -  <a id="github" href="http://github.com/macek/google_pacman">GitHub macek/google_pacman</a>
+ 
+105      -
+ 
+  105    +  
+ 
+  106    +  <div id="footer">
+ 
+  107    +    <ul>
+ 
+  108    +      <li><a href="http://github.com/macek/google_pacman">GitHub macek/google_pacman</a></li>
+ 
+  109    +      <li><a href="http://google.com">&copy; 2010, Google</a></li>
+ 
+  110    +    </ul>
+ 
+  111    +  </div>
+ 
+106   112       <script>google.pml && google.pml()</script>
+ 
+107   113       </center>
+ 
+108   114     </html>
+ 
+
+ 
+
+
+8  src/js/pacman10-hp.3.js  
+
+ 
+View file @ d6a79af 
+ 
+
+...   ...   @@ -1,3 +1,11 @@
+ 
+  1    +/*!
+ 
+  2    + * Google Pacman 
+ 
+  3    + *
+ 
+  4    + * Copyright 2010, Google
+ 
+  5    + *
+ 
+  6    + * Date: Fri May 21 2010
+ 
+  7    + */
+ 
+  8    +
+ 
+1   9     google.pacman ||
+ 
+2   10     function () {
+ 
+3   11       var a = true,
+ 
+
